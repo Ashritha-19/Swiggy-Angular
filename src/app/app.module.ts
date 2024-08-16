@@ -6,6 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
+import { RatingComponent } from './rating/rating.component';
+import { AddRestaurantComponent } from './add.restaurant/add.restaurant.component';
 
 
 
@@ -14,7 +16,9 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    RatingComponent,
+    AddRestaurantComponent
   ],
   imports: [
     BrowserModule,
